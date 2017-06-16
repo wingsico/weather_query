@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/css-reset.css">
+  <link rel="stylesheet" href="css/weather.css">
+  <title>Local weather</title>
+</head>
+
+<body>
+  <div id="container">
+    <!--<div class="search">
+      <input type="text" class="search-input">
+      <span class="search-button"></span>
+    </div>-->
+    <h3 class="weather-main-title">天气小应用</h3>
+    <section class="today">
+      <div class="today-weather">
+        <span class="today-title"><span class="city"></span>今日天气</span>
+        <div class="today-ajax-weather">
+          <span class="date-y"></span>
+          <span class="week"></span>
+          <span class="temperature"></span>
+          <span class="weather"></span>
+          <span class="wind"></span>
+          <span>风力<span class="wind-strength"></span></span>
+          <!--<i></i>-->
+        </div>
+      </div>
+      <div class="today-index">
+        <ul>
+          <li class="today-index-title">
+            <span>湿度:</span>
+            <span class="humidity index"></span>
+          </li>
+          <li class="today-index-title">
+            <span>穿衣指数:</span>
+            <span class="dressing-index index"></span>
+          </li>
+          <li class="today-index-title">
+            <span>洗车指数:</span>
+            <span class="wash-index index"></span>
+          </li>
+          </br>
+          <li class="today-index-title">
+            <span>旅行指数:</span>
+            <span class="travel-index index"></span>
+          </li>
+          <li class="today-index-title">
+            <span>锻炼指数:</span>
+            <span class="exercise-index index"></span>
+          </li>
+          <li class="today-index-title">
+            <span>紫外线指数:</span>
+            <span class="uv-index index"></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="future">
+      <h4 class="future-title">未来六天天气</h4>
+      <ul>
+        <li class="future-weather">
+          <span class="date"></span>
+          <span class="weather"></span>
+          <i></i>
+          <span class="temperature"></span>
+          <span class="wind"></span>
+          <span class="week"></span>
+        </li>
+        <li class="future-weather">
+          <span class="date"></span>
+          <span class="weather"></span>
+          <i></i>
+          <span class="temperature"></span>
+          <span class="wind"></span>
+          <span class="week"></span>
+        </li>
+        <li class="future-weather">
+          <span class="date"></span>
+          <span class="weather"></span>
+          <i></i>
+          <span class="temperature"></span>
+          <span class="wind"></span>
+          <span class="week"></span>
+        </li>
+        <li class="future-weather">
+          <span class="date"></span>
+          <span class="weather"></span>
+          <i></i>
+          <span class="temperature"></span>
+          <span class="wind"></span>
+          <span class="week"></span>
+        </li>
+        <li class="future-weather">
+          <span class="date"></span>
+          <span class="weather"></span>
+          <i></i>
+          <span class="temperature"></span>
+          <span class="wind"></span>
+          <span class="week"></span>
+        </li>
+        <li class="future-weather">
+          <span class="date"></span>
+          <span class="weather"></span>
+          <i></i>
+          <span class="temperature"></span>
+          <span class="wind"></span>
+          <span class="week"></span>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <div id="mask">
+    <div class="choose-city">
+      <p class="ask">输入一个你想查询的城市</p>
+      <div class="search">
+        <input type="text" class="search-input">
+        <span class="search-button"></span>
+      </div>
+    </div>
+  </div>
+  <script src="js/weather.js"></script>
+</body>
+
+</html>
